@@ -1,0 +1,15 @@
+{
+  "name": "FlyerTalk Glosserize",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*.flyertalk.com/forum*"],
+      "js": [
+        "jquery.min.js",
+        "jquery.qtip.min.js",
+        "glosserize.js"
+      ]
+    }
+  ]
+}
